@@ -1,0 +1,110 @@
+nav {
+  display: flex;
+  background-color: royalblue;
+  width: 60%;
+  height: 60px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+#logo {
+  width: 16%;
+  height: 30px;
+  background-color: rgb(139, 19, 69);
+  align-self: center;
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+#icons {
+  width: 25%;
+  height: 85%;
+  align-self: center;
+  padding: 4px;
+  border-radius: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#icons > div {
+  width: 20%;
+  height: 90%;
+  align-self: center;
+  border-radius: 5px;
+  margin-left: 15px;
+  background-color: tomato;
+}
+#app-root {
+  display: flex;
+  flex-direction: column;
+}
+#first-section {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 55px;
+  margin-top: 7px;
+
+}
+#first-section > div {
+  border-radius: 6px;
+}
+#first-section > div:nth-child(1) {
+  width: 50%;
+  height: 100%;
+  background-color: orangered;
+  margin-right: 5px;
+}
+#first-section > div:nth-child(2) {
+  width: 50%;
+  height: 100%;
+  background-color: orange;
+}
+main{
+    display: flex;
+    width: 60%;
+    height: 400px;
+
+    margin-top: 7px;
+    border-radius: 6px;
+}
+main > section:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 6px;
+    margin-right: 6px;
+    justify-content: center;
+    background-color: orangered;
+}
+main > section:nth-child(2){
+    width: 25%;
+    flex-grow: 1;
+    border-radius: 6px;
+    background-color: orangered;
+}
+main > section:nth-child(1) > div:nth-child(1){
+    width: 90%;
+    height: 50%;
+    background-color: orange;
+    margin-top: 10px;
+}
+main > section:nth-child(1) > div:nth-child(2){
+    width: 90%;
+    height: 50%;
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main > section:nth-child(1) > div{
+    align-self: center;
+    border-radius: 6px;
+}
+footer{
+    width: 60%;
+    background-color: royalblue;
+    height: 60px;
+    margin-top: 8px;
+    border-radius: 6px;
+}
